@@ -1,0 +1,157 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+.header img{
+    max-width: 150px;
+    height:40px;
+    padding-top:10px;
+ 
+
+
+}
+.header{
+    height: 50px;
+    display: flex;
+    padding: 20px 36px;
+  
+box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero--photo {
+    max-width: 80%;
+    align-self: center;
+    padding:20px;
+    
+    
+
+
+}
+
+.hero--header {
+   
+
+font-weight: 700;
+font-size: 50px;
+line-height: 110%;
+margin-bottom: 16px;
+
+}
+
+.hero--text {
+    font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 110%;
+    margin-top: 0;
+}
+.content{
+    margin-left:20px;
+}
+
+
+.gray1{
+    font-size:20px
+}
+.gray {
+    color: #918E9B;
+    font-size:20px;
+}
+.bold{
+    font-weight:bold;
+}
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin-left:20px;
+}
+
+.card {
+    width: 300px;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    margin-top:100px
+    
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 12px;
+    margin-top:20px;
+    margin-bottom:10px;
+
+    
+}
+
+/* ADD */
+.card--title {
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:6px;
+    margin-bottom:6px;
+    font-size:20px
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    margin-left:10px;
+    margin-top:6px;
+    margin-bottom:6px;
+    
+    
+}
+
+.card--star {
+    height: 18px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: 6px;
+    font-size:20px
+}
+.badge {
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
